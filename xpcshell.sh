@@ -1,3 +1,3 @@
 #!/system/bin/sh
-export LD_LIBRARY_PATH=/system/b2g/
-/system/b2g/xpcshell $@
+export LD_LIBRARY_PATH=/system/xpcshell/:/system/b2g/
+/system/xpcshell/xpcshell $@
